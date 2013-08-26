@@ -1,5 +1,11 @@
 require "localsampler/version"
 
 module Localsampler
-  # Your code goes here...
+
+  def local
+    "I am local"
+  end
+
+  module_function :local
+  
 end
